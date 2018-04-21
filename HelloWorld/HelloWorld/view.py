@@ -5,6 +5,6 @@ from django.shortcuts import render
 
 def hello(request):
     context          = {}
-    context['hello'] = 'Hello World!!'
+    context['hello'] = 'Hello World!!!'
     context['hi'] = 'HI!'
     return render(request, 'student_home.html', context)
